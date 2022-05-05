@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
 
 import Logo from '../../assets/svg/logo.svg';
-import LogoDark from '../../assets/svg/logo_pink.svg';
+import LogoDark from '../../assets/svg/logo.svg';
 import { useActiveWeb3React } from '../../hooks';
 import { useDarkModeManager } from '../../state/user/hooks';
 import { useETHBalances } from '../../state/wallet/hooks';
