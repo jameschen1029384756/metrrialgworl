@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import styled from 'styled-components';
 import MetamaskIcon from '../../assets/images/metamask.png';
-import { ReactComponent as Close } from '../../assets/images/x.svg';
+import { ReactComponent as Close } from '../../assets/images/walletConnectIcon.svg';
 import {
   // fortmatic,
   injected,
