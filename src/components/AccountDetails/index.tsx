@@ -231,7 +231,7 @@ export default function AccountDetails({
   openOptions,
 }: AccountDetailsProps) {
   const { chainId, account, connector } = useActiveWeb3React();
-  const theme = useContext(ThemeContext);
+ 
   const dispatch = useDispatch<AppDispatch>();
 
   function formatConnectorName() {
